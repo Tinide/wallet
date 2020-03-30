@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{ad37051c-b3c2-41fb-8a5f-110b53122340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common">
+      <UniqueIdentifier>{68270999-a0f4-42da-ae34-deb631b49f84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\server">
+      <UniqueIdentifier>{1b899681-834c-4130-aefb-53a911e9fc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\msg">
+      <UniqueIdentifier>{593adde6-9c63-4fbc-a45a-743b2f93642b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\admin">
+      <UniqueIdentifier>{f4e6f66c-db69-454e-8d37-6cbdb22b37cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\dbg">
+      <UniqueIdentifier>{2b0daef2-8056-410d-a8ac-3a559d4d85bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\jsoncpp">
+      <UniqueIdentifier>{a567e637-a00e-44b7-ba8b-cbcb7acf2d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\leveldb">
+      <UniqueIdentifier>{a6d2d39e-d38a-4cf2-b408-b974be4be95d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\log">
+      <UniqueIdentifier>{52324e69-c63f-4e12-a76c-44be7c58b9d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\markup">
+      <UniqueIdentifier>{cb17b9e1-c208-4b08-9753-db67cb55f2e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\pool">
+      <UniqueIdentifier>{e8f5e4e7-f70f-4203-b169-ef4911f62ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\protocolHdl">
+      <UniqueIdentifier>{c56d034c-5840-4ef6-8ccc-b068142614c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\proxy">
+      <UniqueIdentifier>{2534ca72-c359-4efa-b80e-057cfe188c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\timer">
+      <UniqueIdentifier>{b76018f5-7597-4b3f-9ff2-e5ede35db858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\tool">
+      <UniqueIdentifier>{e7d0f3f9-638d-482b-b6cc-c036bd38b339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\watchDog">
+      <UniqueIdentifier>{bd748a0e-316e-4203-8478-f81a87de6011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\websocket">
+      <UniqueIdentifier>{f6f64e2e-ce9a-4ffd-bf47-3f4d6ea56a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\windowsService">
+      <UniqueIdentifier>{6a3e4cbb-4111-4c91-91b3-b07fa5ca2cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\jsoncpp\include">
+      <UniqueIdentifier>{953b5bb7-cbcf-4b29-ab58-9ca2989994ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\jsoncpp\src">
+      <UniqueIdentifier>{a7189fd2-54fc-4f74-b887-5955e2e6d9ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\jsoncpp\include\json">
+      <UniqueIdentifier>{b36e571d-7540-448a-b235-b3bd374789c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\wsClient">
+      <UniqueIdentifier>{3ec1a7e0-50c1-4a5b-a1dc-b761c9387742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol">
+      <UniqueIdentifier>{3a4e8eea-ab8d-49f3-9706-fb7169a4a0a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\common\http">
+      <UniqueIdentifier>{ac1fb8e7-aec7-474f-95c3-a7a35a1d6895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="coin">
+      <UniqueIdentifier>{8ed4bb88-acc2-4408-b837-6270b6d5b767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="coin\server">
+      <UniqueIdentifier>{43adf8d4-3999-4297-b39c-56a1c4a2b6bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="coin\msg">
+      <UniqueIdentifier>{cbf7ab9a-a1ed-447c-a103-9f4b199f4209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol\balance">
+      <UniqueIdentifier>{da448376-e660-476c-b0e9-caa579ca60c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\server\Server.cpp">
+      <Filter>base\server</Filter>
+    </ClCompile>
+    <ClCompile Include="base\server\PraseServer.cpp">
+      <Filter>base\server</Filter>
+    </ClCompile>
+    <ClCompile Include="base\server\DbServer.cpp">
+      <Filter>base\server</Filter>
+    </ClCompile>
+    <ClCompile Include="base\server\CoreServer.cpp">
+      <Filter>base\server</Filter>
+    </ClCompile>
+    <ClCompile Include="base\server\wsServer.cpp">
+      <Filter>base\server</Filter>
+    </ClCompile>
+    <ClCompile Include="base\msg\ReqMsg.cpp">
+      <Filter>base\msg</Filter>
+    </ClCompile>
+    <ClCompile Include="base\msg\Protocol.cpp">
+      <Filter>base\msg</Filter>
+    </ClCompile>
+    <ClCompile Include="base\msg\Msg.cpp">
+      <Filter>base\msg</Filter>
+    </ClCompile>
+    <ClCompile Include="base\msg\RspMsg.cpp">
+      <Filter>base\msg</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\admin\Admin.cpp">
+      <Filter>base\common\admin</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\admin\WsAdmin.cpp">
+      <Filter>base\common\admin</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\dbg\Dbg.cpp">
+      <Filter>base\common\dbg</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\jsoncpp\jsonRead.cpp">
+      <Filter>base\common\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\jsoncpp\src\json_value.cpp">
+      <Filter>base\common\jsoncpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\jsoncpp\src\json_writer.cpp">
+      <Filter>base\common\jsoncpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\jsoncpp\src\json_reader.cpp">
+      <Filter>base\common\jsoncpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\log\log.cpp">
+      <Filter>base\common\log</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\markup\Markup.cpp">
+      <Filter>base\common\markup</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\windowsService\WindowsService.cpp">
+      <Filter>base\common\windowsService</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\websocket\WebSocket.cpp">
+      <Filter>base\common\websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\watchDog\WatchDog.cpp">
+      <Filter>base\common\watchDog</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\tool\Tool.cpp">
+      <Filter>base\common\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\timer\Timer.cpp">
+      <Filter>base\common\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\proxy\Proxy.cpp">
+      <Filter>base\common\proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\protocolHdl\ProtocolHdl.cpp">
+      <Filter>base\common\protocolHdl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\pool\Pool.cpp">
+      <Filter>base\common\pool</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\leveldb\Leveldb.cpp">
+      <Filter>base\common\leveldb</Filter>
+    </ClCompile>
+    <ClCompile Include="base\server\SqlServer.cpp">
+      <Filter>base\server</Filter>
+    </ClCompile>
+    <ClCompile Include="base\server\WsClientServer.cpp">
+      <Filter>base\server</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\wsClient\WsClient.cpp">
+      <Filter>base\common\wsClient</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\http\HttpClient.cpp">
+      <Filter>base\common\http</Filter>
+    </ClCompile>
+    <ClCompile Include="base\common\http\ATW.cpp">
+      <Filter>base\common\http</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\LoginProto.cpp">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\NewAddressProto.cpp">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\WithdrawProto.cpp">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\QryWithdrawProto.cpp">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\DepositRecordProto.cpp">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\QryDepositProto.cpp">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\VerifyAddressProto.cpp">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="coin\msg\DepositMsg.cpp">
+      <Filter>coin\msg</Filter>
+    </ClCompile>
+    <ClCompile Include="coin\server\DepositServer.cpp">
+      <Filter>coin\server</Filter>
+    </ClCompile>
+    <ClCompile Include="coin\server\EthServer.cpp">
+      <Filter>coin\server</Filter>
+    </ClCompile>
+    <ClCompile Include="coin\server\BtcServer.cpp">
+      <Filter>coin\server</Filter>
+    </ClCompile>
+    <ClCompile Include="coin\server\CoinServer.cpp">
+      <Filter>coin\server</Filter>
+    </ClCompile>
+    <ClCompile Include="coin\server\EthShiftServer.cpp">
+      <Filter>coin\server</Filter>
+    </ClCompile>
+    <ClCompile Include="coin\msg\EthShiftMsg.cpp">
+      <Filter>coin\msg</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\ColdWalletProto.cpp">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\balance\qryTotalBalanceProto.cpp">
+      <Filter>protocol\balance</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base\server\Server.h">
+      <Filter>base\server</Filter>
+    </ClInclude>
+    <ClInclude Include="base\server\PraseServer.h">
+      <Filter>base\server</Filter>
+    </ClInclude>
+    <ClInclude Include="base\server\DbServer.h">
+      <Filter>base\server</Filter>
+    </ClInclude>
+    <ClInclude Include="base\server\CoreServer.h">
+      <Filter>base\server</Filter>
+    </ClInclude>
+    <ClInclude Include="base\server\wsServer.h">
+      <Filter>base\server</Filter>
+    </ClInclude>
+    <ClInclude Include="base\msg\Protocol.h">
+      <Filter>base\msg</Filter>
+    </ClInclude>
+    <ClInclude Include="base\msg\Msg.h">
+      <Filter>base\msg</Filter>
+    </ClInclude>
+    <ClInclude Include="base\msg\RspMsg.h">
+      <Filter>base\msg</Filter>
+    </ClInclude>
+    <ClInclude Include="base\msg\ReqMsg.h">
+      <Filter>base\msg</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\admin\Admin.h">
+      <Filter>base\common\admin</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\admin\WsAdmin.h">
+      <Filter>base\common\admin</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\dbg\Dbg.h">
+      <Filter>base\common\dbg</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\jsoncpp\jsonRead.h">
+      <Filter>base\common\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\jsoncpp\include\json\features.h">
+      <Filter>base\common\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\jsoncpp\include\json\forwards.h">
+      <Filter>base\common\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\jsoncpp\include\json\json.h">
+      <Filter>base\common\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\jsoncpp\include\json\reader.h">
+      <Filter>base\common\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\jsoncpp\include\json\value.h">
+      <Filter>base\common\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\jsoncpp\include\json\version.h">
+      <Filter>base\common\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\jsoncpp\include\json\writer.h">
+      <Filter>base\common\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\jsoncpp\include\json\allocator.h">
+      <Filter>base\common\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\jsoncpp\include\json\assertions.h">
+      <Filter>base\common\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\jsoncpp\include\json\autolink.h">
+      <Filter>base\common\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\jsoncpp\include\json\config.h">
+      <Filter>base\common\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\jsoncpp\src\json_tool.h">
+      <Filter>base\common\jsoncpp\src</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\log\log.h">
+      <Filter>base\common\log</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\markup\RWConfig.h">
+      <Filter>base\common\markup</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\markup\Markup.h">
+      <Filter>base\common\markup</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\windowsService\WindowsService.h">
+      <Filter>base\common\windowsService</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\websocket\WebSocket.h">
+      <Filter>base\common\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\watchDog\WatchDog.h">
+      <Filter>base\common\watchDog</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\tool\Tool.h">
+      <Filter>base\common\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\timer\Timer.h">
+      <Filter>base\common\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\proxy\Proxy.h">
+      <Filter>base\common\proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\protocolHdl\ProtocolHdl.h">
+      <Filter>base\common\protocolHdl</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\pool\Pool.h">
+      <Filter>base\common\pool</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\leveldb\Leveldb.h">
+      <Filter>base\common\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="base\server\SqlServer.h">
+      <Filter>base\server</Filter>
+    </ClInclude>
+    <ClInclude Include="base\server\WsClientServer.h">
+      <Filter>base\server</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\wsClient\WsClient.h">
+      <Filter>base\common\wsClient</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\http\ATW.h">
+      <Filter>base\common\http</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common\http\HttpClient.h">
+      <Filter>base\common\http</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\LoginProto.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\NewAddressProto.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\WithdrawProto.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\QryWithdrawProto.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\DepositRecordProto.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\QryDepositProto.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\VerifyAddressProto.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="coin\msg\DepositMsg.h">
+      <Filter>coin\msg</Filter>
+    </ClInclude>
+    <ClInclude Include="coin\server\DepositServer.h">
+      <Filter>coin\server</Filter>
+    </ClInclude>
+    <ClInclude Include="coin\server\EthServer.h">
+      <Filter>coin\server</Filter>
+    </ClInclude>
+    <ClInclude Include="coin\server\BtcServer.h">
+      <Filter>coin\server</Filter>
+    </ClInclude>
+    <ClInclude Include="coin\server\CoinServer.h">
+      <Filter>coin\server</Filter>
+    </ClInclude>
+    <ClInclude Include="coin\server\EthShiftServer.h">
+      <Filter>coin\server</Filter>
+    </ClInclude>
+    <ClInclude Include="coin\msg\EthShiftMsg.h">
+      <Filter>coin\msg</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\ColdWalletProto.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\balance\qryTotalBalanceProto.h">
+      <Filter>protocol\balance</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="base\common\jsoncpp\src\json_valueiterator.inl">
+      <Filter>base\common\jsoncpp\src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
